@@ -31,9 +31,9 @@ color: $color;
   background-image: none;
   border-color: rgba($color, 0);
   &:not(.btn-inverse-light) {
-    color: $color;      
+    color: $color;
   }
-  @include hover {
+  &:hover {
     color: $color-hover;
     background-color: $color;
     border-color: $color;
@@ -70,7 +70,7 @@ color: $color;
     opacity: .8;
   }
   &:not(.btn-gradient-light) {
-    color: $white;      
+    color: $white;
     &:hover,
     &:focus,
     &:active {
